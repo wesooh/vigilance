@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database
+vigilance.db
+vigilance.db-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build files
+dist/
+build/
+.next/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploads
+uploads/
+temp-uploads/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Debug
+debug.log
+error.log
