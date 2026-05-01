@@ -1,4 +1,4 @@
-# VH Colliance Backend API
+# VIGILANCE Backend API
 
 ## Overview
 Backend API for VH Colliance worker platform connecting clients with domestic and professional workers.
