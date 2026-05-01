@@ -15,7 +15,7 @@ Backend API for VH Colliance worker platform connecting clients with domestic an
 
 ## Tech Stack
 - Node.js & Express.js
-- MongoDB with Mongoose
+- SQLite
 - Socket.io for real-time chat
 - JWT for authentication
 - M-Pesa Daraja API
