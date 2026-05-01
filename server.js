@@ -10,7 +10,7 @@ const path = require('path');
 dotenv.config();
 
 const app = express();
-const dbPath = path.join(__dirname, 'vigilance.db');
+const dbPath = path.resolve(process.cwd(), 'vigilance.db');
 const db = new sqlite3.Database(dbPath);
 
 // Create all tables
